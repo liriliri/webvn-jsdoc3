@@ -1,0 +1,9 @@
+/bower_components/
+/node_modules/
+/static/fonts/
+/static/scripts/jquery.min.js
+/static/scripts/underscore-min.js
+/static/scripts/bootstrap.min.js
+/static/styles/bootstrap.min.css
+/static/styles/webvn.css
+/.idea/

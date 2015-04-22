@@ -1,0 +1,30 @@
+{
+  "name": "WebVN-jsdoc3",
+  "version": "0.0.1",
+  "description": "WebVN template for JSDoc 3",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/surunzi/WebVN-jsdoc3.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "jsdoc3",
+    "webvn",
+    "template"
+  ],
+  "author": {
+    "name": "surunzi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surunzi/WebVN-jsdoc3/issues"
+  },
+  "homepage": "https://github.com/surunzi/WebVN-jsdoc3"
+}
