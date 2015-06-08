@@ -3,6 +3,7 @@
 .main {
     padding: 20px 20px;
     margin-left: @navWidth;
+
     .page-title {
         display: none;
     }
@@ -69,7 +70,7 @@
 
     span.static {
         display: inline-block;
-        background-color: @colorSubtitle!important;
+        background-color: @colorBlueDark !important;
         color: #fff;
         font-size: 0.7em;
         padding: 2px 4px;
@@ -99,12 +100,11 @@
     .subsection-title {
         font-size: 14px;
         margin-top: 30px;
-        color: @colorSubtitle;
+        color: @colorBlueDark;
     }
 
     .description {
         margin-top: 10px;
-        // .font-description();
         font-size: 13px;
 
         p {
@@ -125,7 +125,6 @@
         background-color: @colorLink;
         color: #fff;
         padding: 2px 4px;
-        border-radius: 5px;
     }
 
     .type-signature {
@@ -141,7 +140,6 @@
         background-color: @colorRed;
         color: #fff;
         padding: 2px 4px;
-        border-radius: 5px;
     }
 
     .nameContainer {
@@ -152,7 +150,6 @@
 
         .inherited {
             display: inline-block;
-            border-radius: 3px;
             background-color: #888!important;
             font-size: 0.7em;
             padding: 2px 4px;
@@ -190,6 +187,11 @@
 
     pre {
         font-size: 11px;
+        border-radius: 0px;
+    }
+
+    code {
+        border-radius: 0px;
     }
 
     table {
@@ -197,15 +199,15 @@
         margin: 15px 0;
 
         th, td {
-            border: 1px solid #525252;
+            border: 1px solid @colorBlueDark;
             padding: 6px 10px;
             vertical-align: middle;
             text-align: left;
         }
 
         th {
-            background-color: #eb6864;
-            border-color: #eb6864;
+            background-color: @colorBlueDark;
+            border-color: @colorBlueDark;
             color: #fff;
         }
 
@@ -234,7 +236,6 @@
 
         .optional {
             float: left;
-            border-radius: 3px;
             background-color: #ddd!important;
             font-size: 0.7em;
             padding: 2px 4px;

@@ -9,11 +9,11 @@
 @media screen {
   /* string content */
   .str {
-    color: #718c00; }
+    color: #eb6864; }
 
   /* a keyword */
   .kwd {
-    color: #8959a8; }
+    color: #efa96e; }
 
   /* a comment */
   .com {
@@ -21,7 +21,7 @@
 
   /* a type name */
   .typ {
-    color: #4271ae; }
+    color: #07a; }
 
   /* a literal value */
   .lit {
@@ -61,7 +61,7 @@
 
   /* a function name */
   .fun {
-    color: #4271ae; } }
+    color: #07a; } }
 /* Use higher contrast and text-weight for printable form. */
 @media print, projection {
   .str {

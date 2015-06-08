@@ -14,18 +14,16 @@
     float: left;
     width: @navWidth;
     height: 100%;
-    box-shadow: 0 0 5px #666;
-    background-color: @colorBgNavi;
+    background: #fff;
 
     .applicationName {
-        margin: 0;
-        margin-top: 15px;
+        margin: 15px 0 0 0;
         padding: 10px 15px;
         font: bold 1.25em Helvetica;
-        color: #fff;
+        text-align: center;
 
         a {
-            color: #fff;
+            color: @colorBlackDark;
         }
     }
 
@@ -36,6 +34,8 @@
             background-color: #fff;
             color: #000;
             border-color: #07a;
+            border-radius: 0;
+            box-shadow: none;
         }
     }
 
@@ -44,12 +44,16 @@
         position: relative;
         overflow: auto;
         width: 100%;
+        background-color: @colorBlackDark;
     }
 
     li.item {
-        margin-bottom: 8px;
-        padding-bottom: 8px;
-        border-bottom: 1px solid #fff;
+        border-top: 1px solid @colorBlackDarker;
+        padding: 8px;
+
+        &:hover {
+            background: @colorBlackLight;
+        }
 
         a {
             color: #fff;
@@ -65,7 +69,7 @@
 
             .static {
                 display: block;
-                background-color: @colorSubtitle;
+                background-color: @colorBlueDark;
                 color: #fff;
                 font-size: 0.7em;
                 padding: 2px 4px;
